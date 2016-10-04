@@ -41,6 +41,13 @@ class MethodExmpl{
 	      // variable to store value entered from keyboard
           double var = in.nextDouble();
           if (var == -1) break;
+          else if (var == 0) {
+        	  System.out.println("Zero");
+          }
+          else {
+        	  System.out.println((var>0)?"Positive":"Negative");
+//        	  System.out.println((var%2==0)?"Positive":"Negative");
+          }
 	          // Invoke a method to return a square
 	          double result = doSquare(var);
 	          System.out.println("The result of squaring the number " + var + " is: " + result);

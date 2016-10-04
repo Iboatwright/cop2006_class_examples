@@ -33,7 +33,7 @@ class MethodExmpl3{
    public static void main(String args[]) { //main method
        //ask user to enter a double
       Scanner in = new Scanner(System.in);
-      int count = 0;
+      int count = 0; 
       int s = 0;
       while (count < 5){
           System.out.print("Please enter a double: ");
